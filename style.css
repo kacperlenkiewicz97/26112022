@@ -45,6 +45,29 @@ text-align: center;
     border-radius: 15px;
 }
 
+/* style for comment */
+
+.comments{
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/02/17/19/paris-3193674_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.singleComment{
+    background-color: rgba(255, 255, 255, 0.518);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.singleComment:nth-last-child(1){
+    margin-bottom: 0;
+}
+/* style for contact */
+
 .h2{
     text-align: center;
     margin: 10px;
