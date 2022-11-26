@@ -114,3 +114,37 @@ text-align: center;
     color: darkblue;
     margin: 5px;
 }
+
+/* .rectangle{
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    animation: rectangleWidth 5s infinite;
+}
+
+@keyframes rectangleWidth {
+    0% {width: 200px;}
+    20%{width: 400px;}
+    40%{width: 150px; background-color: blue;}
+    60%{width: 250px;}
+    100%{width: 200px; background-color: gold;}
+} */
+
+.animation {
+    padding: 40px;
+    background-image: url(../img//bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    animation: slider 10s infinite linear;
+}
+
+
+@keyframes slider {
+    0%{background-image: url(../img/bridge.jpg);}
+    33%{background-image: url(../img/eiffel.jpg);}
+    66%{background-image: url(../img/paris.jpg);}
+    100%{background-image: url(../img/bridge.jpg);}
+}
