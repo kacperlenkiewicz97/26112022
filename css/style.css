@@ -36,13 +36,20 @@ text-align: center;
 
 .header__readMore {
     margin-bottom: 50px;
-    background-color: rgb(65, 21, 21);
+    background-color: rgba(65, 21, 21, 0);
     color: white;
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 15px;
+}
+
+.header__readMore:hover{
+    background-color: darkred;
+    color: white;
+    transition: 0.5s
 }
 
 .footer {
@@ -131,20 +138,22 @@ text-align: center;
     100%{width: 200px; background-color: gold;}
 } */
 
-.animation {
+ .animation {
+    margin: 20px;
+    /*margin: 40px;
     padding: 40px;
     background-image: url(../img//bridge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
-    animation: slider 10s infinite linear;
+    animation: slider 10s infinite linear; */
 }
 
-
+/*
 @keyframes slider {
     0%{background-image: url(../img/bridge.jpg);}
     33%{background-image: url(../img/eiffel.jpg);}
     66%{background-image: url(../img/paris.jpg);}
     100%{background-image: url(../img/bridge.jpg);}
-}
+} */

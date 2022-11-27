@@ -1,5 +1,9 @@
 /* 768 */
 
+.animation{
+    margin: 40px;
+}
+
 .box{
     display: flex;
     flex-direction: row;
